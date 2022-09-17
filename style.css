@@ -1,0 +1,182 @@
+h1 {
+    color: #cc6600;
+    text-align: center;
+}
+
+h2 {
+    color: darkgreen;
+    text-align: center;
+}
+
+.info h1{
+    text-align: start;
+}
+
+.info h2{
+    text-align: start;
+}
+
+.grid {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 60px;
+
+}
+body {
+    background-color: #FFCCCC;
+}
+
+.links1 {   
+    margin: 2px;
+}
+
+.links1 h2{
+    color: orangered;
+}
+
+.links2 h2{
+    color: orangered;
+}
+
+.links1 img {
+    opacity: 0.13;
+}
+
+.links1:hover img{
+    opacity: 1;
+}
+
+.img1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.links2 {
+    position: relative;    
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.links2 img {
+    opacity: 0.13;
+    justify-content: space-around;
+}
+
+.links2:hover img{
+    opacity: 1;
+}
+
+.links2 h2 {
+    text-align: start;
+}
+
+.links {
+    display: flex;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    justify-content: space-evenly;
+    background-color: #000099;
+}
+
+.links h1 {
+    color: powderblue;
+}
+
+.cent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFCCCC;
+}
+
+.cent1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFCCCC;
+    color: #cc6600;
+}
+
+.box {
+    border-style: solid;
+    border-width: 3px;
+    border-color: orange;
+    margin: 30px;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 10s;
+    padding: 20px;
+}
+
+@keyframes example {
+    from {border-color: red;}
+    to {border-color: blue;}
+}
+
+.image1 {
+    justify-content: flex-end;
+    margin-left: 420px;
+    margin-top: 20px;
+}
+
+.image { 
+    padding: 20;
+    margin: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 60px;
+}
+.cent4 h2 {
+    color: mediumblue;
+}
+
+.cent5 h2 {
+    color: mediumblue;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+.require {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.require h2 {
+    text-align: start;
+    color: teal;
+}
+
+.require1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.require1 h1 {
+    text-align: start;
+    color: teal;
+}
+
+.hi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.hi h1 {
+    color: #000000;
+}
+
+
+.head h1{
+    color: darkgreen;
+}
